@@ -203,9 +203,28 @@
       .overlay { transition: none; }
       button:active { transform: none; }
     }
+    .home-pill {
+      position: fixed;
+      top: calc(10px + env(safe-area-inset-top));
+      left: calc(10px + env(safe-area-inset-left));
+      z-index: 20;
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 7px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      color: var(--ink);
+      box-shadow: 0 4px 14px var(--shadow);
+      font: 800 13px/1 "Nunito Sans", system-ui, sans-serif;
+      text-decoration: none;
+    }
+    .home-pill:focus-visible { outline: 3px solid var(--brick-b); outline-offset: 3px; }
   </style>
 </head>
 <body>
+  <a class="home-pill" href="https://jesuslovestyler.com/">⌂ Home</a>
   <main>
     <section class="game-shell" aria-label="Brick Breaker arcade game">
       <div class="hud" aria-label="Game status">
@@ -719,5 +738,6 @@
     if (scheme.addEventListener) scheme.addEventListener("change", refreshTheme);
   }());
   </script>
+  <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
