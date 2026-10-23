@@ -1,9 +1,8 @@
 # Brick Breaker
 
-An original brick-breaker arcade game — our own paddle, ball physics, bricks, and code, released to the public domain.
+A free brick breaker game you play in your browser: paddle, ball, and a wall of bricks — the arcade classic, kept simple and quick.
 
-Touch-drag paddle controls (mouse and keyboard on desktop), angle-based ball physics, colorful multi-hit bricks, 3 lives, escalating levels, session scoring, and power-ups: wider paddle, multi-ball, and slow ball.
+**Live:** https://jesuslovestyler.github.io/Brick-breaker/
+**Home:** https://jesuslovestyler.com/
 
-No saved data, no ads, no tracking — a fresh run every visit.
-
-Built with Muse artifacts.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
